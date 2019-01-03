@@ -1,0 +1,157 @@
+2019-01-03 11:49:39,610 INFO [org.fengfei.lanproxy.server.config.ProxyConfig] - <config init serverBind 0.0.0.0, serverPort 4900, configServerBind 0.0.0.0, configServerPort 8090, configAdminUsername admin, configAdminPassword admin>
+2019-01-03 11:49:39,666 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <starting container [org.fengfei.lanproxy.server.ProxyServerContainer]>
+2019-01-03 11:49:39,777 INFO [org.fengfei.lanproxy.server.ProxyServerContainer] - <proxy server start on port 4900>
+2019-01-03 11:49:39,780 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Checking SSL configuration properties...>
+2019-01-03 11:49:39,780 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing SSL context. KeystorePath = test.jks.>
+2019-01-03 11:49:39,780 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Loading keystore. KeystorePath = test.jks.>
+2019-01-03 11:49:39,781 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Starting with jks at file:/home/biod/lanproxy/lanproxy-server/distribution/proxy-server-0.1/conf/test.jks, jks normal file:/home/biod/lanproxy/lanproxy-server/distribution/proxy-server-0.1/conf/test.jks>
+2019-01-03 11:49:40,089 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing key manager...>
+2019-01-03 11:49:40,091 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing SSL context...>
+2019-01-03 11:49:40,096 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <The SSL context has been initialized successfully.>
+2019-01-03 11:49:40,098 INFO [org.fengfei.lanproxy.server.ProxyServerContainer] - <proxy ssl server start on port 4993>
+2019-01-03 11:49:40,099 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.ProxyServerContainer] started>
+2019-01-03 11:49:40,099 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <starting container [org.fengfei.lanproxy.server.config.web.WebConfigContainer]>
+2019-01-03 11:49:40,101 INFO [org.fengfei.lanproxy.server.config.web.WebConfigContainer] - <http server start on port 8090>
+2019-01-03 11:49:40,104 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add requestMiddleware org.fengfei.lanproxy.server.config.web.routes.RouteConfig$1@4bec1f0c>
+2019-01-03 11:49:40,105 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /config/detail>
+2019-01-03 11:49:40,105 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /config/update>
+2019-01-03 11:49:40,106 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /login>
+2019-01-03 11:49:40,107 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /logout>
+2019-01-03 11:49:40,107 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /metrics/get>
+2019-01-03 11:49:40,107 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /metrics/getandreset>
+2019-01-03 11:49:40,107 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.config.web.WebConfigContainer] started>
+2019-01-03 11:50:24,787 INFO [org.fengfei.lanproxy.server.config.web.routes.RouteConfig] - <handle request for api /login>
+2019-01-03 11:50:25,191 INFO [org.fengfei.lanproxy.server.config.web.routes.RouteConfig] - <handle request for api /config/detail>
+2019-01-03 11:50:25,410 INFO [org.fengfei.lanproxy.server.config.web.routes.RouteConfig] - <handle request for api /config/detail>
+2019-01-03 11:50:26,054 INFO [org.fengfei.lanproxy.server.config.web.routes.RouteConfig] - <handle request for api /metrics/get>
+2019-01-03 11:50:27,316 INFO [org.fengfei.lanproxy.server.config.web.routes.RouteConfig] - <handle request for api /config/detail>
+2019-01-03 11:53:10,623 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <stopping container [org.fengfei.lanproxy.server.ProxyServerContainer]>
+2019-01-03 11:53:10,714 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.ProxyServerContainer] stopped>
+2019-01-03 11:53:10,714 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <stopping container [org.fengfei.lanproxy.server.config.web.WebConfigContainer]>
+2019-01-03 11:53:10,714 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.config.web.WebConfigContainer] stopped>
+2019-01-03 11:53:17,302 INFO [org.fengfei.lanproxy.server.config.ProxyConfig] - <config init serverBind 0.0.0.0, serverPort 4900, configServerBind 0.0.0.0, configServerPort 8090, configAdminUsername admin, configAdminPassword admin>
+2019-01-03 11:53:17,356 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <starting container [org.fengfei.lanproxy.server.ProxyServerContainer]>
+2019-01-03 11:53:17,469 INFO [org.fengfei.lanproxy.server.ProxyServerContainer] - <proxy server start on port 4900>
+2019-01-03 11:53:17,470 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Checking SSL configuration properties...>
+2019-01-03 11:53:17,471 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing SSL context. KeystorePath = test.jks.>
+2019-01-03 11:53:17,471 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Loading keystore. KeystorePath = test.jks.>
+2019-01-03 11:53:17,471 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Starting with jks at file:/home/biod/lanproxy/lanproxy-server/distribution/proxy-server-0.1/conf/test.jks, jks normal file:/home/biod/lanproxy/lanproxy-server/distribution/proxy-server-0.1/conf/test.jks>
+2019-01-03 11:53:17,716 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing key manager...>
+2019-01-03 11:53:17,717 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing SSL context...>
+2019-01-03 11:53:17,721 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <The SSL context has been initialized successfully.>
+2019-01-03 11:53:17,723 INFO [org.fengfei.lanproxy.server.ProxyServerContainer] - <proxy ssl server start on port 4993>
+2019-01-03 11:53:17,724 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.ProxyServerContainer] started>
+2019-01-03 11:53:17,724 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <starting container [org.fengfei.lanproxy.server.config.web.WebConfigContainer]>
+2019-01-03 11:53:17,726 INFO [org.fengfei.lanproxy.server.config.web.WebConfigContainer] - <http server start on port 8090>
+2019-01-03 11:53:17,729 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add requestMiddleware org.fengfei.lanproxy.server.config.web.routes.RouteConfig$1@4bec1f0c>
+2019-01-03 11:53:17,730 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /config/detail>
+2019-01-03 11:53:17,730 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /config/update>
+2019-01-03 11:53:17,731 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /login>
+2019-01-03 11:53:17,732 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /logout>
+2019-01-03 11:53:17,732 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /metrics/get>
+2019-01-03 11:53:17,733 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /metrics/getandreset>
+2019-01-03 11:53:17,733 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.config.web.WebConfigContainer] started>
+2019-01-03 11:54:11,193 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <stopping container [org.fengfei.lanproxy.server.ProxyServerContainer]>
+2019-01-03 11:54:11,279 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.ProxyServerContainer] stopped>
+2019-01-03 11:54:11,280 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <stopping container [org.fengfei.lanproxy.server.config.web.WebConfigContainer]>
+2019-01-03 11:54:11,280 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.config.web.WebConfigContainer] stopped>
+2019-01-03 11:54:22,609 INFO [org.fengfei.lanproxy.server.config.ProxyConfig] - <config init serverBind 0.0.0.0, serverPort 4900, configServerBind 0.0.0.0, configServerPort 8090, configAdminUsername admin, configAdminPassword admin>
+2019-01-03 11:54:22,647 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <starting container [org.fengfei.lanproxy.server.ProxyServerContainer]>
+2019-01-03 11:54:22,747 INFO [org.fengfei.lanproxy.server.ProxyServerContainer] - <proxy server start on port 4900>
+2019-01-03 11:54:22,749 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Checking SSL configuration properties...>
+2019-01-03 11:54:22,749 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing SSL context. KeystorePath = test.jks.>
+2019-01-03 11:54:22,750 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Loading keystore. KeystorePath = test.jks.>
+2019-01-03 11:54:22,750 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Starting with jks at file:/home/biod/lanproxy/lanproxy-server/distribution/proxy-server-0.1/conf/test.jks, jks normal file:/home/biod/lanproxy/lanproxy-server/distribution/proxy-server-0.1/conf/test.jks>
+2019-01-03 11:54:23,015 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing key manager...>
+2019-01-03 11:54:23,016 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing SSL context...>
+2019-01-03 11:54:23,021 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <The SSL context has been initialized successfully.>
+2019-01-03 11:54:23,024 INFO [org.fengfei.lanproxy.server.ProxyServerContainer] - <proxy ssl server start on port 4993>
+2019-01-03 11:54:23,025 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.ProxyServerContainer] started>
+2019-01-03 11:54:23,025 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <starting container [org.fengfei.lanproxy.server.config.web.WebConfigContainer]>
+2019-01-03 11:54:23,027 INFO [org.fengfei.lanproxy.server.config.web.WebConfigContainer] - <http server start on port 8090>
+2019-01-03 11:54:23,029 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add requestMiddleware org.fengfei.lanproxy.server.config.web.routes.RouteConfig$1@4bec1f0c>
+2019-01-03 11:54:23,030 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /config/detail>
+2019-01-03 11:54:23,031 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /config/update>
+2019-01-03 11:54:23,032 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /login>
+2019-01-03 11:54:23,032 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /logout>
+2019-01-03 11:54:23,033 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /metrics/get>
+2019-01-03 11:54:23,033 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /metrics/getandreset>
+2019-01-03 11:54:23,033 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.config.web.WebConfigContainer] started>
+2019-01-03 11:55:43,104 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <stopping container [org.fengfei.lanproxy.server.ProxyServerContainer]>
+2019-01-03 11:55:43,189 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.ProxyServerContainer] stopped>
+2019-01-03 11:55:43,189 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <stopping container [org.fengfei.lanproxy.server.config.web.WebConfigContainer]>
+2019-01-03 11:55:43,190 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.config.web.WebConfigContainer] stopped>
+2019-01-03 11:57:20,018 INFO [org.fengfei.lanproxy.server.config.ProxyConfig] - <config init serverBind 0.0.0.0, serverPort 4900, configServerBind 0.0.0.0, configServerPort 8090, configAdminUsername admin, configAdminPassword admin>
+2019-01-03 11:57:20,074 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <starting container [org.fengfei.lanproxy.server.ProxyServerContainer]>
+2019-01-03 11:57:20,183 INFO [org.fengfei.lanproxy.server.ProxyServerContainer] - <proxy server start on port 4900>
+2019-01-03 11:57:20,185 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Checking SSL configuration properties...>
+2019-01-03 11:57:20,185 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing SSL context. KeystorePath = test.jks.>
+2019-01-03 11:57:20,185 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Loading keystore. KeystorePath = test.jks.>
+2019-01-03 11:57:20,185 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Starting with jks at file:/home/biod/lanproxy/lanproxy-server/distribution/proxy-server-0.1/conf/test.jks, jks normal file:/home/biod/lanproxy/lanproxy-server/distribution/proxy-server-0.1/conf/test.jks>
+2019-01-03 11:57:20,474 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing key manager...>
+2019-01-03 11:57:20,476 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing SSL context...>
+2019-01-03 11:57:20,480 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <The SSL context has been initialized successfully.>
+2019-01-03 11:57:20,482 INFO [org.fengfei.lanproxy.server.ProxyServerContainer] - <proxy ssl server start on port 4993>
+2019-01-03 11:57:20,483 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.ProxyServerContainer] started>
+2019-01-03 11:57:20,483 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <starting container [org.fengfei.lanproxy.server.config.web.WebConfigContainer]>
+2019-01-03 11:57:20,485 INFO [org.fengfei.lanproxy.server.config.web.WebConfigContainer] - <http server start on port 8090>
+2019-01-03 11:57:20,488 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add requestMiddleware org.fengfei.lanproxy.server.config.web.routes.RouteConfig$1@4bec1f0c>
+2019-01-03 11:57:20,488 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /config/detail>
+2019-01-03 11:57:20,489 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /config/update>
+2019-01-03 11:57:20,490 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /login>
+2019-01-03 11:57:20,490 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /logout>
+2019-01-03 11:57:20,491 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /metrics/get>
+2019-01-03 11:57:20,491 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /metrics/getandreset>
+2019-01-03 11:57:20,491 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.config.web.WebConfigContainer] started>
+2019-01-03 11:57:32,920 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <stopping container [org.fengfei.lanproxy.server.ProxyServerContainer]>
+2019-01-03 11:57:33,010 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.ProxyServerContainer] stopped>
+2019-01-03 11:57:33,010 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <stopping container [org.fengfei.lanproxy.server.config.web.WebConfigContainer]>
+2019-01-03 11:57:33,011 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.config.web.WebConfigContainer] stopped>
+2019-01-03 11:59:43,446 INFO [org.fengfei.lanproxy.server.config.ProxyConfig] - <config init serverBind 0.0.0.0, serverPort 4900, configServerBind 0.0.0.0, configServerPort 8090, configAdminUsername admin, configAdminPassword admin>
+2019-01-03 11:59:43,498 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <starting container [org.fengfei.lanproxy.server.ProxyServerContainer]>
+2019-01-03 11:59:43,607 INFO [org.fengfei.lanproxy.server.ProxyServerContainer] - <proxy server start on port 4900>
+2019-01-03 11:59:43,609 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Checking SSL configuration properties...>
+2019-01-03 11:59:43,609 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing SSL context. KeystorePath = test.jks.>
+2019-01-03 11:59:43,609 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Loading keystore. KeystorePath = test.jks.>
+2019-01-03 11:59:43,609 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Starting with jks at file:/home/biod/lanproxy/lanproxy-server/distribution/proxy-server-0.1/conf/test.jks, jks normal file:/home/biod/lanproxy/lanproxy-server/distribution/proxy-server-0.1/conf/test.jks>
+2019-01-03 11:59:43,885 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing key manager...>
+2019-01-03 11:59:43,886 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing SSL context...>
+2019-01-03 11:59:43,890 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <The SSL context has been initialized successfully.>
+2019-01-03 11:59:43,893 INFO [org.fengfei.lanproxy.server.ProxyServerContainer] - <proxy ssl server start on port 4993>
+2019-01-03 11:59:43,893 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.ProxyServerContainer] started>
+2019-01-03 11:59:43,894 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <starting container [org.fengfei.lanproxy.server.config.web.WebConfigContainer]>
+2019-01-03 11:59:43,896 INFO [org.fengfei.lanproxy.server.config.web.WebConfigContainer] - <http server start on port 8090>
+2019-01-03 11:59:43,898 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add requestMiddleware org.fengfei.lanproxy.server.config.web.routes.RouteConfig$1@4bec1f0c>
+2019-01-03 11:59:43,899 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /config/detail>
+2019-01-03 11:59:43,900 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /config/update>
+2019-01-03 11:59:43,900 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /login>
+2019-01-03 11:59:43,901 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /logout>
+2019-01-03 11:59:43,901 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /metrics/get>
+2019-01-03 11:59:43,902 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /metrics/getandreset>
+2019-01-03 11:59:43,902 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.config.web.WebConfigContainer] started>
+2019-01-03 12:02:27,425 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <stopping container [org.fengfei.lanproxy.server.ProxyServerContainer]>
+2019-01-03 12:02:27,530 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.ProxyServerContainer] stopped>
+2019-01-03 12:02:27,530 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <stopping container [org.fengfei.lanproxy.server.config.web.WebConfigContainer]>
+2019-01-03 12:02:27,530 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.config.web.WebConfigContainer] stopped>
+2019-01-03 12:02:28,879 INFO [org.fengfei.lanproxy.server.config.ProxyConfig] - <config init serverBind 0.0.0.0, serverPort 4900, configServerBind 0.0.0.0, configServerPort 8090, configAdminUsername admin, configAdminPassword admin>
+2019-01-03 12:02:28,931 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <starting container [org.fengfei.lanproxy.server.ProxyServerContainer]>
+2019-01-03 12:02:29,049 INFO [org.fengfei.lanproxy.server.ProxyServerContainer] - <proxy server start on port 4900>
+2019-01-03 12:02:29,051 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Checking SSL configuration properties...>
+2019-01-03 12:02:29,051 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing SSL context. KeystorePath = test.jks.>
+2019-01-03 12:02:29,051 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Loading keystore. KeystorePath = test.jks.>
+2019-01-03 12:02:29,051 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Starting with jks at file:/home/biod/lanproxy/lanproxy-server/distribution/proxy-server-0.1/conf/test.jks, jks normal file:/home/biod/lanproxy/lanproxy-server/distribution/proxy-server-0.1/conf/test.jks>
+2019-01-03 12:02:29,299 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing key manager...>
+2019-01-03 12:02:29,300 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing SSL context...>
+2019-01-03 12:02:29,304 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <The SSL context has been initialized successfully.>
+2019-01-03 12:02:29,306 INFO [org.fengfei.lanproxy.server.ProxyServerContainer] - <proxy ssl server start on port 4993>
+2019-01-03 12:02:29,307 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.ProxyServerContainer] started>
+2019-01-03 12:02:29,307 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <starting container [org.fengfei.lanproxy.server.config.web.WebConfigContainer]>
+2019-01-03 12:02:29,309 INFO [org.fengfei.lanproxy.server.config.web.WebConfigContainer] - <http server start on port 8090>
+2019-01-03 12:02:29,312 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add requestMiddleware org.fengfei.lanproxy.server.config.web.routes.RouteConfig$1@4bec1f0c>
+2019-01-03 12:02:29,312 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /config/detail>
+2019-01-03 12:02:29,313 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /config/update>
+2019-01-03 12:02:29,314 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /login>
+2019-01-03 12:02:29,314 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /logout>
+2019-01-03 12:02:29,315 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /metrics/get>
+2019-01-03 12:02:29,315 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /metrics/getandreset>
+2019-01-03 12:02:29,315 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.config.web.WebConfigContainer] started>
